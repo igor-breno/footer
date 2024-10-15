@@ -1,0 +1,59 @@
+/* Estilo do footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color:bisque; /* Cor inspirada no verde da Starbucks */
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Estilo da div do mapa */
+.mapa {
+    width: 100%;
+    height: 250px;
+    border: 2px solid #5f3900; /* Borda verde semelhante ao tema da Starbucks */
+    margin-top: 10px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.footer .text-muted {
+    color: #0088ff;
+}
+
+/* Ícones de redes sociais que foi desativado */
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
