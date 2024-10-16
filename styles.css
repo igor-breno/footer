@@ -1,13 +1,13 @@
-/* Estilo do footer */
 .footer {
-    background-color: #f1f1f1;
+    background-color: #f0f8ff; /* Azul claro */
     padding: 40px 0;
     font-family: Arial, sans-serif;
+    border-top: 2px solid #0088ff; /* Cor do contorno superior */
 }
 
 .footer h5 {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 
@@ -23,37 +23,34 @@
 .footer ul li a {
     color: #333;
     text-decoration: none;
-    font-size: 14px;
 }
 
 .footer ul li a:hover {
-    color:bisque; /* Cor inspirada no verde da Starbucks */
+    color: #0088ff; /* Cor ao passar o mouse */
 }
 
-.footer p {
-    font-size: 14px;
+.company, .contact, .location, .social {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 10px 0; /* Espaçamento entre colunas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
 }
 
-/* Estilo da div do mapa */
-.mapa {
-    width: 100%;
-    height: 250px;
-    border: 2px solid #5f3900; /**/
+.company:hover, .contact:hover, .location:hover, .social:hover {
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
     margin-top: 10px;
 }
 
-.mapa iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-.footer .text-muted {
-    color: #0088ff;
-}
-
-/* Ícones de redes sociais que foi desativado */
-.social-icons a img {
-    width: 30px;
-    height: 30px;
+.map {
+    margin-top: 10px;
+    border-radius: 8px; /* Bordas arredondadas do mapa */
+    overflow: hidden; /* Para esconder as bordas do iframe */
 }
